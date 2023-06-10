@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Hospital page</title>
+
+<style>
+
+
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+}
+
+/* Style the header */
+.header {
+  background-color: skyblue;
+  padding: 20px;
+
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+img{
+  border-radius:10px;
+  margin-right:500px;
+
+}
+
+<!-- styling for footer -->
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin:10px;
+  width:25px;
+  height:25px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  margin:10px;
+  width:25px;
+  height:25px;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+  margin:10px;
+  width:25px;
+  height:25px;
+
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  margin:10px;
+  width:25px;
+  height:25px;
+
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  margin:10px;
+  width:25px;
+  height:25px;
+
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  margin:10px;
+  width:25px;
+  height:25px;
+
+}
+
+</style>
+</head>
+<body>
+<!-- header section -->
+<div class="header">
+  <h1><img src="hsptlicon.png"  width="90px" height="90px">Shrinidhi Hegde Charitable Hospital</h1>
+</div>
+
+<!-- nav bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Clinical Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="services.html#general_medicine">General Medicine</a>
+          <a class="dropdown-item" href="services.html#cardiology">Cardiology</a>
+          <a class="dropdown-item" href="services.html#neurology">Neurology</a>
+          <a class="dropdown-item" href="services.html#anaesthesiology">Anaesthesiology</a>
+          <a class="dropdown-item" href="services.html#orthopaedics">Orthopaedics</a>
+          <a class="dropdown-item" href="services.html#plasticsurgery">Plastic Surgery</a>
+          <a class="dropdown-item" href="services.html#physiotherapy">Physiotherapy</a>
+
+        </div>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Facilities<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="about.html">About Us<span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+<!-- General Medicine -->
+<div class="about">
+<section id="general_medicine">
+<h1>Department of General medicine</h1><br /><br />
+<img src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+<p>
+The Department of Internal Medicine is managed by an excellent and competent team of doctors who are dedicated in providing patient-centered, evidence-based medical care. The goal is to improve health of our society through basic biomedical research and clinical investigation, comprehensive and personalized patient care at affordable costs and the training of the next generation of specialist physicians.
+</p><br />
+<p>
+  The department currently consists of 34 staff members with 5 Professors, 3 Associate professors, 7 Assistant professors, 4 Senior residents and 15 Junior residents divided into 5 units.
+</p>
+</section>
+</div>
+<hr />
+
+<!-- cardiology -->
+<div class="about">
+<section id="cardiology">
+<h1>Department of Cardiology</h1><br /><br />
+<img src="https://images.unsplash.com/photo-1559757296-5c84adc6d116?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+<p>
+  Our Department offers the latest innovations in cardiac care both to out-patients and in-patients of all ages. We provide state-of-the-art tests and procedures to help in giving accurate diagnosis and create treatment plan. We see patients with very common heart problems such as angina, valvular heart disease, congenital heart disease, peripheral arterial disease and heart failure.
+  Our Cardiologists use a broad range of treatment options to give each patient the best care possible. These include life style modification recommendations, medications and interventional procedures.
+</p><br />
+</section>
+</div>
+<hr />
+
+<!-- Neurology -->
+<div class="about">
+<section id="neurology">
+<h1>Department of Neurology</h1><br /><br />
+<img src="https://images.unsplash.com/photo-1567607673554-2048def2c6b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+<p>
+  Department of Neurology includes a dedicated state of the art diagnostic and rehabilitation centre - Dr.Abc CENTRE FOR NEUROSCIENCES, was established through the generous donation of Dr. Xyz a retired cardiologist from Pittsburgh, USA in the memory of his wife. It was inaugurated in 2016. The department is actively involved in research activities with its advanced basic research laboratory – CENTER FOR ADVANCED NEUROLOGICAL RESEARCH.
+</p>
+<br>
+</section>
+</div>
+<hr />
+
+<!-- Anaesthesiology -->
+<div class="about">
+<section id="anaesthesiology">
+<h1>Department of Anaesthesiology</h1><br /><br />
+<img src="https://images.unsplash.com/photo-1579684288452-b334934f845f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+<p>
+  Department of Anaesthesiology and Critical Care (established in 1993) provides anaesthetic services to all surgical specialities of Shrinidhi Hegde Charitable Hospital  and also takes care of critically ill patients. These include General Surgery, Orthopaedics, ENT, Head & Neck, Ophthalmology, Obstetrics and Gynaecology and super specialities like Neurosurgery, Urology, Paediatric Surgery, Plastic Surgery, Craniofacial and Onco-surgeries. Department is in charge of 20 bedded multi-disciplinary Intensive Care Unit and a 16 bedded high dependence unit. The Department is actively involved in the acute and chronic pain relief services. The department runs a regular pain clinic, it has an outpatient pre anaesthesia clinic for evaluation and preparation of surgical patients for both outpatient and in-patient procedures, and a labour analgesia unit to take care of labour pain during childbirth. Outside the operation theatre, the department caters to the needs of other departments like radiological procedures and endoscopic procedures, ECT etc.
+</p>
+<br />
+</section>
+</div>
+<hr />
+
+<!-- Orthopaedics -->
+<div class="about">
+<section id="orthopaedics">
+<h1>Department of Orthopaedics</h1><br /><br />
+<img src="data:image/jpeg;base64,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" alt="">
+<p>
+  Established in 1993. The department of Orthopaedics included in the M.B.B.S Course and offers Post graduate MS program in Orthopaedics. In addition the department of orthopaedics has recognized guides for the interdisciplinary Ph.D program of Shrinidhi Deemed to be University. The department has enough staff as per the requirements of the medical council of India (MCI). It tenders daily OPD services with specialty clinics and has high rate of occupancy in its in patients wards both male and female wards. It has adequate infrastructural facilities for providing clinical training for undergraduate and post graduate students. The departmental library has 148 titles and 26 periodicals.
+</p>
+<br />
+</section>
+</div>
+<hr />
+
+<!-- Plastic surgery -->
+<div class="about">
+<section id="plasticsurgery">
+<h1>Department of Plastic surgery</h1><br /><br />
+<img src="https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+<h2> Services offered :</h2>
+<p>
+
+    Cosmetic/Aesthetic surgeries like Rhinoplasty, Lip reduction/augmentation, Ear reconstruction, facial rejuvenation, facelift, breast reduction/augmentation, gynecomastia, liposuction, body contouring surgery, tummy tuck surgery, genital rejuvenation [hymenoplasty, vaginoplasty]
+    Reconstructive surgery [Trauma,bedsore]
+    Hand surgery
+    Microvascular surgery
+    Congenital deformities correction
+    Diabetic foot management
+    Burn Care
+
+</p>
+<br />
+</section>
+</div>
+<hr />
+
+<!-- Physiotherapy -->
+<div class="about">
+<section id="physiotherapy">
+<h1>Department of Physiotherapy</h1><br /><br />
+<img src="https://images.unsplash.com/photo-1551656984-88b2a2227383?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+<p>
+  As professionals, physiotherapists are experts at providing physiotherapy treatment for:
+
+    Preventing injury and disability;
+    Managing acute and chronic conditions;
+    Improving and maintaining optimal physical performance;
+    Rehabilitating injury and the effects of disease or disability;
+    Educating patients to prevent re-occurrence of an injury.
+
+Patients may be referred to or seek assistance from a physiotherapist for a variety of health issues and receive valuable assistance.
+</p>
+<br />
+</section>
+</div>
+
+
+
+
+
+
+<!-- footer section -->
+<footer>
+<p>Author: Shrinidhi Hegde</p>
+<p><a href="mailto:xyz@example.com">hegde@example.com</a></p>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+
+
+</footer
+</body>
+</html>

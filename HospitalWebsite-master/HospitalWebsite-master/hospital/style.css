@@ -1,0 +1,74 @@
+
+marquee{
+  text-decoration: line-through;
+}
+.mitem{
+  font-size: 10px;
+}
+.sizing {
+  width:1200px;
+  height:460px;
+  margin-left: 90px;
+}
+.nav-link{
+  font-size: 15px;
+  margin:20px;
+
+}
+.nav-link:hover{
+background-color:lightblue;
+}
+footer{
+  text-align: center;
+  padding: 3px;
+  background-color: black;
+  color: white;
+}
+p{
+  font-size: 15px;
+  color:black;
+}
+.about{
+  padding:15px;
+  border: 25px;
+  margin:25px;
+  background-color: lightblue;
+}
+table{
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+th{
+  font-size: 15px;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+td{
+  font-size: 15px;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+.formclass{
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 20px;
+}
+#btn{
+  margin:40px;
+  padding: 10px;
+  width:90px;
+  background-color: lightblue;
+  color:black;
+  font-size: 15px;
+}
+#btn:hover{
+  background-color: green;
+}
+label{
+  font-size: 15px;
+}
